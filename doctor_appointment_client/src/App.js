@@ -15,7 +15,7 @@ import {
 import { ProductContextProvider } from "./products/context";
 import Home from "./Home";
 import About from "./About";
-import Login from "./Login";
+import Login from "./Login/Login.jsx";
 import AddDoctor from "./doctors/addDoctor";
 import AddProduct from "./products/addProducts";
 import AddMedicine from "./medicines/addMedicines";
@@ -79,25 +79,6 @@ function App() {
     if(token === ''){
       setSignedIn(false)
     }
-
-    // const verifyToken = async() => {
-      // try{
-      //     const res = await axios.get(`http://localhost:4000/api/v1/customer/validate?${token}`)
-      //     console.log(res)
-      //     if(res.status === 200){
-      //       setSignedIn(true)
-      //     }
-      //     else {
-      //       setSignedIn(false)
-      //     }
-      // }
-
-      // catch(error){
-      //   setSignedIn(false)
-      //   console.log(error)
-      // }
-    // }
-    // verifyToken()
 
     else {
       setSignedIn(true)
