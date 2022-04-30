@@ -1,0 +1,63 @@
+.signUpContainer{
+   padding : 20px;
+    /* height: 80vh; */
+    overflow: hidden;
+    /* background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://upload.wikimedia.org/wikipedia/commons/6/60/Pure_black_wallpaper.jpg")
+        center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.signUpWrapper{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.signUpTitle{
+    font-size: 24px;
+  font-weight: 500;
+  
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+
+.formInput{
+    flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+  .agreement{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .createAccount{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color : white;
+    font-size: 18px;
+  }
+  .alreadyAccount{
+   text-align: center;
+   text-decoration: none;
+  }
